@@ -11,7 +11,7 @@ function displayProducts(products) {
     productsContainer.innerHTML = ''; // Clear previous products
     products.forEach(product => {
         const productHTML = `
-            <div class="border p-4 flex flex-col items-center">
+            <div class="border p-4 flex flex-col items-center bg-white">
                 <img src="${product.imageUrl}" alt="${product.name}" class="w-32 h-32 object-cover mb-2">
                 <h3 class="text-lg font-semibold">${product.name}</h3>
                 <p>${product.price}</p>
