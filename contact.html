@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - Eyg Pet Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <span class="ml-3 text-xl">Pet Shop</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="index.html" class="mr-5 hover:text-gray-900">Inicio</a>
+                <a href="products.html" class="mr-5 hover:text-gray-900">Productos</a>
+                <a href="about.html" class="mr-5 hover:text-gray-900">Sobre Nosotros</a>
+                <a href="contact.html" class="mr-5 hover:text-gray-900">Contáctanos</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto px-4">
+        <h1 class="text-2xl font-bold text-center my-8">Contáctanos</h1>
+        <div class="leading-relaxed text-base mb-4">
+            <p>Para cualquier pregunta o consulta, no dudes en contactarnos:</p>
+            <p><strong>Jorge Espinoza</strong><br>
+            Celular: +51 941 868 075<br>
+             Ubicación: Ica, Perú</p>
+            <form class="w-full max-w-lg mx-auto mt-8">
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="name">Nombre</label>
+                        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="name" type="text" placeholder="Roberto Cerpa">
+                    </div>
+                    <div class="w-full md:w-1/2 px-3">
+                        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="email">Correo</label>
+                        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="email" type="email" placeholder="email@example.com">
+                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full px-3">
+                        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="message">Mensaje</label>
+                        <textarea class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="message" rows="4"></textarea>
+                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full px-3 text-center">
+                        <button class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <!-- Footer Content -->
+    </footer>
+</body>
+</html>
