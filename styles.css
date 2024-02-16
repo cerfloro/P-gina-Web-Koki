@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('https://drive.google.com/file/d/1l8k3BEh9q2gYjmXz57cl6zN5b8bb5mub/view?usp=drive_link') no-repeat center center fixed; 
+  background: url('img/background.jpg') no-repeat center center fixed; 
   background-size: cover;
   z-index: -1;
 }
