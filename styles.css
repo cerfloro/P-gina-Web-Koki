@@ -10,7 +10,7 @@
     z-index: -1; /* Sit on top */
   }
   body {
-    background-image: url('background.jpg'); /* Replace with your image path */
+    background-image: url('img/background.jpg'); /* Replace with your image path */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
