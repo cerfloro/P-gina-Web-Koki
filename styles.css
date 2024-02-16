@@ -1,10 +1,19 @@
-.background-image-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url('img/background.jpg') no-repeat center center fixed; 
-  background-size: cover;
-  z-index: -1;
-}
+
+  body::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.7); /* Black background with 0.7 opacity */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1; /* Sit on top */
+  }
+  body {
+    background-image: url('background.jpg'); /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative; /* Add this */
+  }
+  /* Rest of your CSS */
