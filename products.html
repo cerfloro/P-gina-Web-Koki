@@ -8,8 +8,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="background-image-container">
-    <header class="text-gray-600 body-font">
-        <!-- Navigation Bar Same as index.html -->
+    <header class="text-white body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <span class="ml-3 text-xl">Pet Shop</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="index.html" class="mr-5 hover:text-gray-200">Inicio</a>
+                <a href="products.html" class="mr-5 hover:text-gray-200">Productos</a>
+                <a href="about.html" class="mr-5 hover:text-gray-200">Sobre Nosotros</a>
+                <a href="contact.html" class="mr-5 hover:text-gray-200">Contáctanos</a>
+            </nav>
+        </div>
     </header>
     <main class="container mx-auto px-4">
         <h1 class="text-2xl font-bold text-center my-8">Nuestros Productos</h1>
@@ -18,7 +28,7 @@
         </div>
     </main>
     <footer>
-        <p>Copyright &copy; 2022 Petshop E-commerce</p>
+        <p class="text-center">Copyright &copy; 2024 Petshop IA</p>
     </footer>
     <!-- Chat Modal -->
     <div id="chatModal" class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full">
